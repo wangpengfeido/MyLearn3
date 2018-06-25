@@ -1,7 +1,7 @@
-##RabbitMQ安装
+## RabbitMQ安装
 1. 安装erlang。一种编程语言。
 2. 安装RabbitMQ。默认端口4369。
-##命令
+## 命令
 windows中命令脚本文件的位置：RabbitMQ Server\rabbitmq_server-3.7.2\sbin
 ###### 查看状态
 rabbitmqctl status
