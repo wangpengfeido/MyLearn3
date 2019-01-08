@@ -1,0 +1,1 @@
+wkhtmltopdf --javascript-delay 10000 ./test.html d.pdf

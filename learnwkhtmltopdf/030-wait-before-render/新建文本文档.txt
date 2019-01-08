@@ -1,0 +1,1 @@
+wkhtmltopdf ./test.html --window-status 'ok'  d.pdf
