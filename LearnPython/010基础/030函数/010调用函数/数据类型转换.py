@@ -1,0 +1,6 @@
+print(int('123'))
+print(int(12.3))
+print(float('12.3'))
+print(str(1.23))
+print(bool(1))
+print(bool(''))
