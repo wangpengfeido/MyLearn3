@@ -8,3 +8,6 @@ def power(x, n):
 
 
 print(power(2, 3))
+
+# 可以使用参数名任意改变传参顺序
+print(power(n=3, x=2))

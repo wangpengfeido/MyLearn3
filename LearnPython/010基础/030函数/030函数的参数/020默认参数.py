@@ -9,5 +9,6 @@ def power(x, n=2, add=0):
 
 
 print(power(2))
+
 # 当有多个默认参数时，可以使用参数名指定传递的参数
 print(power(2, add=10))
