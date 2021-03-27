@@ -1,3 +1,5 @@
+/** 包 */
+
 package main
 
 import (

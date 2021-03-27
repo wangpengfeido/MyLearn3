@@ -1,3 +1,5 @@
+/** 导出名 */
+
 package main
 
 import (
