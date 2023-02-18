@@ -18,7 +18,7 @@ int main(int argc, char const *argv[])
     c = std::toupper(c);
   }
 
-  // 使用下表运算符也可以取值赋值
+  // 使用下标运算符也可以取值赋值
   a1[1 + 1] = 'z';
 
   return 0;
