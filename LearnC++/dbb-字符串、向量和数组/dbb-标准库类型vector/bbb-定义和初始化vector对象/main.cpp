@@ -15,5 +15,8 @@ int main(int argc, char const *argv[])
   // 当列表初始化中类型于与元素类型不同时，会尝试用默认值初始化
   vector<char> v10 = {10, 1}; // 相当于  vector<char> v10(10, 1)
 
+  // 使用迭代器初始化
+  vector<int> v11(v1.begin() + 1, v1.end() - 2);
+
   return 0;
 }

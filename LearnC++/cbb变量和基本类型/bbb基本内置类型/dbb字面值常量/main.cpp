@@ -8,7 +8,9 @@ int main(int argc, char const *argv[])
             << std::endl;
 
   std::cout << "char and string:"
+            // 单引号字符。
             << 'c'
+            // 双引号字符串。字符串实际上是字符数组(并不是std::string类型)。
             << ","
             << "string"
                "string newline"
