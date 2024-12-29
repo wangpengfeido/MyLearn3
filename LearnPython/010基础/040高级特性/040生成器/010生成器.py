@@ -1,6 +1,6 @@
 from collections import Iterable
 
-# 将列表生成式的[]换成()遍可构造生成器
+# 将列表生成式的[]换成()便可构造生成器
 g1 = (x * x for x in range(3))
 
 # 生成器可以使用next()执行
