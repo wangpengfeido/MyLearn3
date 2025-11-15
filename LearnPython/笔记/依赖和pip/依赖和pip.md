@@ -15,6 +15,7 @@
 
 安装文件中列出的所有依赖。
 
+<<<<<<< Updated upstream
 #### -e, --editable <path/url>
 
 `pip install -e .`
@@ -22,3 +23,8 @@
 以编辑模式安装包。
 
 - 将将本地项目符号链接到 site-packages 目录
+=======
+`pip freeze > requirements.txt`
+
+创建 requirements.txt。
+>>>>>>> Stashed changes
