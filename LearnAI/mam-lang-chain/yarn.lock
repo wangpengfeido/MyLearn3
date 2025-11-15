@@ -100,6 +100,33 @@
     zod "^3.22.4"
     zod-to-json-schema "^3.22.3"
 
+"@langchain/langgraph-checkpoint@~0.0.18":
+  version "0.0.18"
+  resolved "https://bnpm.byted.org/@langchain/langgraph-checkpoint/-/langgraph-checkpoint-0.0.18.tgz#2f7a9cdeda948ccc8d312ba9463810709d71d0b8"
+  integrity sha512-IS7zJj36VgY+4pf8ZjsVuUWef7oTwt1y9ylvwu0aLuOn1d0fg05Om9DLm3v2GZ2Df6bhLV1kfWAM0IAl9O5rQQ==
+  dependencies:
+    uuid "^10.0.0"
+
+"@langchain/langgraph-sdk@~0.0.32":
+  version "0.0.78"
+  resolved "https://bnpm.byted.org/@langchain/langgraph-sdk/-/langgraph-sdk-0.0.78.tgz#898fbd5d844e3b8a74341df89af008d878956766"
+  integrity sha512-skkUDmEhClWzlsr8jRaS1VpXVBISm5OFd0MUtS1jKRL5pn08K+IJRvHnlzgum9x7Dste9KXGcIGVoR7cNKJQrw==
+  dependencies:
+    "@types/json-schema" "^7.0.15"
+    p-queue "^6.6.2"
+    p-retry "4"
+    uuid "^9.0.0"
+
+"@langchain/langgraph@^0.3.1":
+  version "0.3.1"
+  resolved "https://bnpm.byted.org/@langchain/langgraph/-/langgraph-0.3.1.tgz#12b55eed0ef6b9415c860c63692fd85a8f64e54c"
+  integrity sha512-BFa6DmKthPG1znkUhTBBqdza4dojs7QGg6o9V9aptIkWWdBF/UhRbjPvCx6ldkmU2oJRNWZ1BlkiP6RflxxPwA==
+  dependencies:
+    "@langchain/langgraph-checkpoint" "~0.0.18"
+    "@langchain/langgraph-sdk" "~0.0.32"
+    uuid "^10.0.0"
+    zod "^3.23.8"
+
 "@langchain/mistralai@^0.2.0":
   version "0.2.0"
   resolved "https://bnpm.byted.org/@langchain/mistralai/-/mistralai-0.2.0.tgz#349a6fe2fcfa52df7f91deafc01ac28a5d9376b2"
@@ -280,6 +307,11 @@
   version "2.0.4"
   resolved "https://bnpm.byted.org/@types/http-errors/-/http-errors-2.0.4.tgz#7eb47726c391b7345a6ec35ad7f4de469cf5ba4f"
   integrity sha512-D0CFMMtydbJAegzOyHjtiKPLlvnm3iTZyZRSZoLq2mRhDdmLfIWOCYPfQJ4cu2erKghU++QvjcUjp/5h7hESpA==
+
+"@types/json-schema@^7.0.15":
+  version "7.0.15"
+  resolved "https://bnpm.byted.org/@types/json-schema/-/json-schema-7.0.15.tgz#596a1747233694d50f6ad8a7869fcb6f56cf5841"
+  integrity sha512-5+fP8P8MFNC+AyZCDxrB2pkZFPGzqQWUzpSeuuVLvm8VMcorNYavBqoFcxK8bQz4Qsbn4oUEEem4wDLfcysGHA==
 
 "@types/keygrip@*":
   version "1.0.6"
@@ -1389,7 +1421,7 @@ uuid@^11.1.0:
   resolved "https://bnpm.byted.org/uuid/-/uuid-11.1.0.tgz#9549028be1753bb934fc96e2bca09bb4105ae912"
   integrity sha512-0/A9rDy9P7cJ+8w1c9WD9V//9Wj15Ce2MPz8Ri6032usz+NfePxx5AcN3bN+r6ZL6jEo066/yNYB3tn4pQEx+A==
 
-uuid@^9.0.1:
+uuid@^9.0.0, uuid@^9.0.1:
   version "9.0.1"
   resolved "https://bnpm.byted.org/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
   integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
